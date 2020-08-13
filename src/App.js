@@ -35,9 +35,9 @@ function App() {
         <Table size="small" >
           <TableHead>
             <TableRow>
-              <TableCell>Date</TableCell>
               <TableCell>Name</TableCell>
-              <TableCell align="right">Sale Amount</TableCell>
+              <TableCell>ABV</TableCell>
+              <TableCell align="right">Calories</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

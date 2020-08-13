@@ -16,7 +16,8 @@ function App() {
 
   useEffect(() => {
     // const apiUrl = 'https://hn.algolia.com/api/v1/search?query=redux';
-    const apiUrl = 'http://localhost:3000/test';
+    // const apiUrl = 'http://localhost:3000/test';
+    const apiUrl = 'http://simple-api-dk-my-project.apps-crc.testing/test';
     fetch(apiUrl)
       .then(response => response.json())
       .then(data => setData(data));
